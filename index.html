@@ -17,7 +17,7 @@
         />
     </head>
     <body>
-        <div class="main-app">
+        <div class="main-app" id="home">
             <div class="header-wrapper">
                 <div class="header-inner dif-container d-flex align-center">
                     <div class="header-logo">
@@ -28,16 +28,16 @@
                     </div>
                     <div class="header-menu">
                         <ul>
-                            <li>
-                                <a href="">HOME </a>
+                            <li class="nav-link">
+                                <a href="#home">HOME </a>
                                 <ul class="submenu">
                                     <li><a href="">home one</a></li>
                                     <li><a href="">home two</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">ABOUT US</a></li>
-                            <li><a href="">SALES</a></li>
-                            <li><a href="">ROADMAP</a></li>
+                            <li class="nav-link"><a href="#about">ABOUT US</a></li>
+                            <li class="nav-link"><a href="#sales">SALES</a></li>
+                            <li class="nav-link"><a href="#roadmap">ROADMAP</a></li>
                             <li>
                                 <a href="">BLOG</a>
                                 <ul class="submenu">
@@ -45,7 +45,7 @@
                                     <li><a href="">blog details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">CONTACT US</a></li>
+                            <li class="nav-link"><a href="#contact">CONTACT US</a></li>
                         </ul>
                     </div>
                     <div class="header-content-right">
@@ -60,10 +60,8 @@
                             </ul>
                         </div>
                         <div class="line-wrapp">
-                            <div class="btn-buy-wrapper">
-                                <div class="btn-buy-inner">
-                                    <a href="">BUY NOW</a>
-                                </div>
+                            <div class="text-box" >
+                                <a href="#" class="btn btn-white btn-        animate">BUY NOW</a>
                             </div>
                         </div>
                         <div class="icon-nav-mobile">
@@ -72,118 +70,124 @@
                     </div>
                 </div>
             </div>
-            <div class="banner-warapper">
+            <div class="banner-warapper session">
                 <div class="content-banner">
-                    <div class="content-banner-inner">
-                        <div class="icon-top">
-                            <img
-                                src="https://smthemebazar.com/html/bigtech/assets/img/icon/fire.png"
-                                alt=""
-                            />
-                        </div>
-                        <div
-                            data-aos="fade-up"
-                            data-aos-offset="200"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out"
-                        >
-                            <p class="banner-text">
-                                Join Future Of Algorithmic
-                                <span>Crypto</span> Trading Strategies
-                            </p>
-                        </div>
-                        <div class="progress-wrapper">
-                            <div class="progress-paragraph">
-                                <div class="paragraph-item">
-                                    <p>pre sell</p>
-                                    <div class="line-vertical"></div>
-                                </div>
-                                <div class="paragraph-item">
-                                    <p>soft cap</p>
-                                    <div class="line-vertical"></div>
-                                </div>
-                                <div class="paragraph-item">
-                                    <p>bonus</p>
-                                    <div class="line-vertical"></div>
-                                </div>
+                    <div class="container">
+                        <div class="content-banner-inner col-lg-10">
+                            <div class="icon-top">
+                                <img
+                                    src="https://smthemebazar.com/html/bigtech/assets/img/icon/fire.png"
+                                    alt=""
+                                />
                             </div>
-                            <div class="progress">
-                                <div class="progress-value">
-                                    <div class="progress-circle-wrapper">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-offset="200"
+                                data-aos-delay="50"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                            >
+                                <p class="banner-text">
+                                    Join Future Of Algorithmic
+                                    <span>Crypto</span> Trading Strategies
+                                </p>
+                            </div>
+                            <div class="progress-wrapper">
+                                <div class="progress-top">
+                                    <div class="progress-paragraph">
+                                        <div class="paragraph-item">
+                                            <p>pre sell</p>
+                                            <div class="line-vertical"></div>
+                                        </div>
+                                        <div class="paragraph-item">
+                                            <p>soft cap</p>
+                                            <div class="line-vertical"></div>
+                                        </div>
+                                        <div class="paragraph-item">
+                                            <p>bonus</p>
+                                            <div class="line-vertical"></div>
+                                        </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-value">
+                                            <div class="progress-circle-wrapper">
+                                                <div
+                                                    class="progress-circle-inner"
+                                                ></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-behind-progress">
+                                        <div class="left">
+                                            <p>65% TARGET RAISED</p>
+                                        </div>
+                                        <div class="right">
+                                            <p>1 ETH = $1000 = 3177.38 CIC</p>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                <div class="text-time">
+                                    <p>ICO Will Start In..</p>
+                                </div>
+                                <div class="time-wrapper d-flex justify-center">
+                                    <div class="time-item">
                                         <div
-                                            class="progress-circle-inner"
-                                        ></div>
+                                            data-aos="fade-right"
+                                            data-aos-offset="200"
+                                            data-aos-delay="50"
+                                            data-aos-duration="1000"
+                                            data-aos-easing="ease-in-out"
+                                            data-aos-once="true"
+                                        >
+                                            <div class="number">26</div>
+                                            <div class="text">Days</div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="text-behind-progress">
-                                <div class="left">
-                                    <p>65% TARGET RAISED</p>
-                                </div>
-                                <div class="right">
-                                    <p>1 ETH = $1000 = 3177.38 CIC</p>
-                                </div>
-                            </div>
-                            <div class="text-time">
-                                <p>ICO Will Start In..</p>
-                            </div>
-                            <div class="time-wrapper d-flex justify-between">
-                                <div class="time-item">
-                                    <div
-                                        data-aos="fade-right"
-                                        data-aos-offset="200"
-                                        data-aos-delay="50"
-                                        data-aos-duration="1000"
-                                        data-aos-easing="ease-in-out"
-                                        data-aos-once="true"
-                                    >
-                                        <div class="number">26</div>
-                                        <div class="text">Days</div>
+                                    <div class="time-item">
+                                        <div
+                                            data-aos="fade-right"
+                                            data-aos-offset="200"
+                                            data-aos-delay="300"
+                                            data-aos-duration="1500"
+                                            data-aos-easing="ease-in-out"
+                                            data-aos-once="true"
+                                        >
+                                            <div class="number">7</div>
+                                            <div class="text">Hour</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="time-item">
-                                    <div
-                                        data-aos="fade-right"
-                                        data-aos-offset="200"
-                                        data-aos-delay="300"
-                                        data-aos-duration="1500"
-                                        data-aos-easing="ease-in-out"
-                                        data-aos-once="true"
-                                    >
-                                        <div class="number">7</div>
-                                        <div class="text">Hour</div>
+                                    <div class="time-item">
+                                        <div
+                                            data-aos="fade-left"
+                                            data-aos-offset="200"
+                                            data-aos-delay="550"
+                                            data-aos-duration="1000"
+                                            data-aos-easing="ease-in-out"
+                                            data-aos-once="true"
+                                        >
+                                            <div class="number">59</div>
+                                            <div class="text">Minute</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="time-item">
-                                    <div
-                                        data-aos="fade-left"
-                                        data-aos-offset="200"
-                                        data-aos-delay="550"
-                                        data-aos-duration="1000"
-                                        data-aos-easing="ease-in-out"
-                                        data-aos-once="true"
-                                    >
-                                        <div class="number">59</div>
-                                        <div class="text">Minute</div>
-                                    </div>
-                                </div>
-                                <div class="time-item">
-                                    <div
-                                        data-aos="fade-left"
-                                        data-aos-offset="200"
-                                        data-aos-delay="800"
-                                        data-aos-duration="1500"
-                                        data-aos-easing="ease-in-out"
-                                        data-aos-once="true"
-                                    >
-                                        <div class="number">30</div>
-                                        <div class="text">Second</div>
+                                    <div class="time-item">
+                                        <div
+                                            data-aos="fade-left"
+                                            data-aos-offset="200"
+                                            data-aos-delay="800"
+                                            data-aos-duration="1500"
+                                            data-aos-easing="ease-in-out"
+                                            data-aos-once="true"
+                                        >
+                                            <div class="number">30</div>
+                                            <div class="text">Second</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                     <div class="img-animation1">
                         <img
                             src="https://smthemebazar.com/html/bigtech/assets/img/banner/banner_shape01.png"
@@ -204,10 +208,10 @@
                     </div>
                 </div>
             </div>
-            <div class="description-bitech">
+            <div class="description-bitech session" id="about">
                 <div class="container">
                     <div class="content-inner d-flex align-center mr-wapper-15">
-                        <div class="content-left pd-15 col-6">
+                        <div class="content-left pd-15 col-lg-6">
                             <div
                                 data-aos="fade-right"
                                 data-aos-offset="200"
@@ -224,7 +228,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="content-right pd-15 col-6">
+                        <div class="content-right pd-15 col-lg-6">
                             <div
                                 data-aos="fade-left"
                                 data-aos-offset="200"
@@ -250,8 +254,8 @@
                                         to make easy to purchase and sell their
                                         tokens
                                     </p>
-                                    <div class="btn-buy-wrapper">
-                                        <div class="btn-buy-inner">
+                                    <div class="btn-handle-wrapper">
+                                        <div class="btn-handle-inner">
                                             <a href="">Purchase Tokens</a>
                                         </div>
                                     </div>
@@ -266,9 +270,9 @@
                     <div class="text-circle">
                         <p><span></span>OUR TOP PARTNER<span></span></p>
                     </div>
-                    <div class="partner-content d-flex">
+                    <div class="partner-content d-flex justify-center">
                         <div
-                            class="partner-content-item d-flex justify-center align-center col-2-5"
+                            class="partner-content-item d-flex justify-center align-center col-xl-2-5"
                         >
                             <div
                                 data-aos="fade"
@@ -284,7 +288,7 @@
                             </div>
                         </div>
                         <div
-                            class="partner-content-item d-flex justify-center align-center col-2-5"
+                            class="partner-content-item d-flex justify-center align-center col-xl-2-5"
                         >
                             <div
                                 data-aos="fade"
@@ -300,7 +304,7 @@
                             </div>
                         </div>
                         <div
-                            class="partner-content-item d-flex justify-center align-center col-2-5"
+                            class="partner-content-item d-flex justify-center align-center col-xl-2-5"
                         >
                             <div
                                 data-aos="fade"
@@ -316,7 +320,7 @@
                             </div>
                         </div>
                         <div
-                            class="partner-content-item d-flex justify-center align-center col-2-5"
+                            class="partner-content-item d-flex justify-center align-center col-xl-2-5"
                         >
                             <div
                                 data-aos="fade"
@@ -332,7 +336,7 @@
                             </div>
                         </div>
                         <div
-                            class="partner-content-item d-flex justify-center align-center col-2-5"
+                            class="partner-content-item d-flex justify-center align-center col-xl-2-5"
                         >
                             <div
                                 data-aos="fade"
@@ -348,7 +352,7 @@
                             </div>
                         </div>
                         <div
-                            class="partner-content-item d-flex justify-center align-center col-2-5"
+                            class="partner-content-item d-flex justify-center align-center col-xl-2-5"
                         >
                             <div
                                 data-aos="fade"
@@ -364,7 +368,7 @@
                             </div>
                         </div>
                         <div
-                            class="partner-content-item d-flex justify-center align-center col-2-5"
+                            class="partner-content-item d-flex justify-center align-center col-xl-2-5"
                         >
                             <div
                                 data-aos="fade"
@@ -380,7 +384,7 @@
                             </div>
                         </div>
                         <div
-                            class="partner-content-item d-flex justify-center align-center col-2-5"
+                            class="partner-content-item d-flex justify-center align-center col-xl-2-5"
                         >
                             <div
                                 data-aos="fade"
@@ -396,7 +400,7 @@
                             </div>
                         </div>
                         <div
-                            class="partner-content-item d-flex justify-center align-center col-2-5"
+                            class="partner-content-item d-flex justify-center align-center col-xl-2-5"
                         >
                             <div
                                 data-aos="fade"
@@ -412,7 +416,7 @@
                             </div>
                         </div>
                         <div
-                            class="partner-content-item d-flex justify-center align-center col-2-5"
+                            class="partner-content-item d-flex justify-center align-center col-xl-2-5"
                         >
                             <div
                                 data-aos="fade"
@@ -667,12 +671,12 @@
                     </div>
                 </div>
             </div>
-            <div class="paralax-area">
+            <div class="paralax-area session" id="sales">
                 <div class="container">
                     <div
-                        class="paralax-area-inner d-flex align-center mr-wapper-15"
+                        class="paralax-area-inner d-flex align-center justify-center mr-wapper-15"
                     >
-                        <div class="content-text-left col-6 pd-15">
+                        <div class="content-text-left  col-md-10 col-lg-6 pd-15">
                             <div class="chart-content">
                                 <div class="navigate-top d-flex">
                                     <p class="active">Funding allocation</p>
@@ -684,14 +688,12 @@
                                     Rewards and The platform helps investors to
                                     make easy to purchase and sell their tokens
                                 </p>
-                                <div class="btn-buy-wrapper">
-                                    <div class="btn-buy-inner">
-                                        <a href="">BUY NOW</a>
-                                    </div>
+                                <div class="text-box" >
+                                    <a href="#" class="btn large border btn-white btn-        animate">BUY NOW</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="content-right-chart col-6 pd-15">
+                        <div class="content-right-chart col-lg-6 col-md-10 pd-15">
                             <div class="content-right-chart-inner">
                                 <div class="image">
                                     <img
@@ -700,27 +702,39 @@
                                     />
                                 </div>
                                 <div class="description-bottom d-flex">
-                                    <div class="item d-flex align-center col-6">
+                                    <div
+                                        class="item d-flex align-center col-xl-6"
+                                    >
                                         <span class="circle"></span>
                                         <span>Contingency: 70%</span>
                                     </div>
-                                    <div class="item d-flex align-center col-6">
+                                    <div
+                                        class="item d-flex align-center col-xl-6"
+                                    >
                                         <span class="circle"></span>
                                         <span>Contingency: 70%</span>
                                     </div>
-                                    <div class="item d-flex align-center col-6">
+                                    <div
+                                        class="item d-flex align-center col-xl-6"
+                                    >
                                         <span class="circle"></span>
                                         <span>Contingency: 70%</span>
                                     </div>
-                                    <div class="item d-flex align-center col-6">
+                                    <div
+                                        class="item d-flex align-center col-xl-6"
+                                    >
                                         <span class="circle"></span>
                                         <span>Contingency: 70%</span>
                                     </div>
-                                    <div class="item d-flex align-center col-6">
+                                    <div
+                                        class="item d-flex align-center col-xl-6"
+                                    >
                                         <span class="circle"></span>
                                         <span>Contingency: 70%</span>
                                     </div>
-                                    <div class="item d-flex align-center col-6">
+                                    <div
+                                        class="item d-flex align-center col-xl-6"
+                                    >
                                         <span class="circle"></span>
                                         <span>Contingency: 70%</span>
                                     </div>
@@ -730,103 +744,760 @@
                     </div>
                 </div>
             </div>
-            <div class="roadmap">
-                <div class="dif-container">
-                    <div class="roadmap-area-top">
-                        <div class="text-area-top">
-                            <div class="text-circle">
-                                <p><span></span>OUR ROADMAP<span></span></p>
+            <div class="roadmap-wrapper session" id="roadmap">
+                <div class="roadmap">
+                    <div class="dif-container">
+                        <div class="roadmap-area-top">
+                            <div class="text-area-top">
+                                <div class="text-circle">
+                                    <p><span></span>OUR ROADMAP<span></span></p>
+                                </div>
+                                <div class="sub-text-area">
+                                    <p>
+                                        Bigtech Strategy And Project
+                                        <span>Plan</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="sub-text-area">
-                                <p>
-                                    Bigtech Strategy And Project
-                                    <span>Plan</span>
-                                </p>
+                        </div>
+                        <div class="roadmap-detail">
+                            <div class="roadmap-inner">
+                                <div class="title">MID OF Q4 2021</div>
+                                <div class="desc">
+                                    <div class="circle"></div>
+                                    <h3>Concept</h3>
+                                    <p>
+                                        EVM support for parthians SubQuery
+                                        Academy Proof of indexing
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="roadmap-inner">
+                                <div class="title">MID OF Q4 2021</div>
+                                <div class="desc">
+                                    <div class="circle"></div>
+                                    <h3>Concept</h3>
+                                    <p>
+                                        EVM support for parthians SubQuery
+                                        Academy Proof of indexing
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="roadmap-inner">
+                                <div class="title">MID OF Q4 2021</div>
+                                <div class="desc">
+                                    <div class="circle"></div>
+                                    <h3>Concept</h3>
+                                    <p>
+                                        EVM support for parthians SubQuery
+                                        Academy Proof of indexing
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="roadmap-inner">
+                                <div class="title">MID OF Q4 2021</div>
+                                <div class="desc">
+                                    <div class="circle"></div>
+                                    <h3>Concept</h3>
+                                    <p>
+                                        EVM support for parthians SubQuery
+                                        Academy Proof of indexing
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="roadmap-inner">
+                                <div class="title">MID OF Q4 2021</div>
+                                <div class="desc">
+                                    <div class="circle"></div>
+                                    <h3>Concept</h3>
+                                    <p>
+                                        EVM support for parthians SubQuery
+                                        Academy Proof of indexing
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="roadmap-inner">
+                                <div class="title">MID OF Q4 2021</div>
+                                <div class="desc">
+                                    <div class="circle"></div>
+                                    <h3>Concept</h3>
+                                    <p>
+                                        EVM support for parthians SubQuery
+                                        Academy Proof of indexing
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="roadmap-inner">
+                                <div class="title">MID OF Q4 2021</div>
+                                <div class="desc">
+                                    <div class="circle"></div>
+                                    <h3>Concept</h3>
+                                    <p>
+                                        EVM support for parthians SubQuery
+                                        Academy Proof of indexing
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="roadmap-detail">
-                        <div class="roadmap-inner">
-                            <div class="title">MID OF Q4 2021</div>
-                            <div class="desc">
-                                <div class="circle"></div>
-                                <h3>Concept</h3>
-                                <p>
-                                    EVM support for parthians SubQuery Academy
-                                    Proof of indexing
-                                </p>
+                </div>
+                <div class="document-area">
+                    <div class="container">
+                        <div class="content-inner d-flex mr-wapper-15 justify-center">
+                            <div class="content-left col-lg-7 pd-15">
+                                <img
+                                    src="https://smthemebazar.com/html/bigtech/assets/img/images/document_img.png"
+                                    alt=""
+                                />
                             </div>
-                        </div>
-                        <div class="roadmap-inner">
-                            <div class="title">MID OF Q4 2021</div>
-                            <div class="desc">
-                                <div class="circle"></div>
-                                <h3>Concept</h3>
-                                <p>
-                                    EVM support for parthians SubQuery Academy
-                                    Proof of indexing
-                                </p>
-                            </div>
-                        </div>
-                        <div class="roadmap-inner">
-                            <div class="title">MID OF Q4 2021</div>
-                            <div class="desc">
-                                <div class="circle"></div>
-                                <h3>Concept</h3>
-                                <p>
-                                    EVM support for parthians SubQuery Academy
-                                    Proof of indexing
-                                </p>
-                            </div>
-                        </div>
-                        <div class="roadmap-inner">
-                            <div class="title">MID OF Q4 2021</div>
-                            <div class="desc">
-                                <div class="circle"></div>
-                                <h3>Concept</h3>
-                                <p>
-                                    EVM support for parthians SubQuery Academy
-                                    Proof of indexing
-                                </p>
-                            </div>
-                        </div>
-                        <div class="roadmap-inner">
-                            <div class="title">MID OF Q4 2021</div>
-                            <div class="desc">
-                                <div class="circle"></div>
-                                <h3>Concept</h3>
-                                <p>
-                                    EVM support for parthians SubQuery Academy
-                                    Proof of indexing
-                                </p>
-                            </div>
-                        </div>
-                        <div class="roadmap-inner">
-                            <div class="title">MID OF Q4 2021</div>
-                            <div class="desc">
-                                <div class="circle"></div>
-                                <h3>Concept</h3>
-                                <p>
-                                    EVM support for parthians SubQuery Academy
-                                    Proof of indexing
-                                </p>
-                            </div>
-                        </div>
-                        <div class="roadmap-inner">
-                            <div class="title">MID OF Q4 2021</div>
-                            <div class="desc">
-                                <div class="circle"></div>
-                                <h3>Concept</h3>
-                                <p>
-                                    EVM support for parthians SubQuery Academy
-                                    Proof of indexing
-                                </p>
+                            <div class="content-right col-lg-5 pd-15">
+                                <div class="text-circle">
+                                    <p><span></span>WHITEPAPER<span></span></p>
+                                </div>
+                                <div class="sub-text-area">
+                                    <p>
+                                        Read Bigtech
+                                        <br />
+                                        <span>Documents</span>
+                                    </p>
+                                </div>
+                                <ul class="list">
+                                    <li>White Paper</li>
+                                    <li>Privaci & Policy</li>
+                                    <li>Terms Of Coin Sale</li>
+                                    <li>One Pager</li>
+                                </ul>
+                                <div class="btn-handle-wrapper">
+                                    <div class="text-box">
+                                        <a href="#" class="btn btn-white btn-        animate">DOWNLOAD DOC</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="team-area">
+                <div class="container">
+                    <div class="text-area-top">
+                        <div class="text-circle">
+                            <p><span></span>OUR TEAM<span></span></p>
+                        </div>
+                        <div class="sub-text-area">
+                            <p>
+                                The Leadership
+                                <br />
+                                <span>Team</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team-wrapper d-flex mr-wapper-15">
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-full pd-15">
+                            <div class="person">
+                                <div class="image">
+                                    <img
+                                        src="https://smthemebazar.com/html/bigtech/assets/img/team/team_img01.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="name">
+                                    <h2>Cameron Williamson</h2>
+                                </div>
+                                <div class="job">
+                                    <p>Founder & CO</p>
+                                </div>
+                                <ul class="contact-ui">
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-youtube"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-twitter"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-facebook-f"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-instagram"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-full pd-15">
+                            <div class="person">
+                                <div class="image">
+                                    <img
+                                        src="https://smthemebazar.com/html/bigtech/assets/img/team/team_img02.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="name">
+                                    <h2>Cameron Williamson</h2>
+                                </div>
+                                <div class="job">
+                                    <p>Founder & CO</p>
+                                </div>
+                                <ul class="contact-ui">
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-youtube"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-twitter"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-facebook-f"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-instagram"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-full pd-15">
+                            <div class="person">
+                                <div class="image">
+                                    <img
+                                        src="https://smthemebazar.com/html/bigtech/assets/img/team/team_img03.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="name">
+                                    <h2>Cameron Williamson</h2>
+                                </div>
+                                <div class="job">
+                                    <p>Founder & CO</p>
+                                </div>
+                                <ul class="contact-ui">
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-youtube"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-twitter"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-facebook-f"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-instagram"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-full pd-15">
+                            <div class="person">
+                                <div class="image">
+                                    <img
+                                        src="https://smthemebazar.com/html/bigtech/assets/img/team/team_img04.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="name">
+                                    <h2>Cameron Williamson</h2>
+                                </div>
+                                <div class="job">
+                                    <p>Founder & CO</p>
+                                </div>
+                                <ul class="contact-ui">
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-youtube"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-twitter"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-facebook-f"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-instagram"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-full pd-15">
+                            <div class="person">
+                                <div class="image">
+                                    <img
+                                        src="https://smthemebazar.com/html/bigtech/assets/img/team/team_img05.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="name">
+                                    <h2>Cameron Williamson</h2>
+                                </div>
+                                <div class="job">
+                                    <p>Founder & CO</p>
+                                </div>
+                                <ul class="contact-ui">
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-youtube"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-twitter"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-facebook-f"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-instagram"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-full pd-15">
+                            <div class="person">
+                                <div class="image">
+                                    <img
+                                        src="https://smthemebazar.com/html/bigtech/assets/img/team/team_img06.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="name">
+                                    <h2>Cameron Williamson</h2>
+                                </div>
+                                <div class="job">
+                                    <p>Founder & CO</p>
+                                </div>
+                                <ul class="contact-ui">
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-youtube"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-twitter"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-facebook-f"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-instagram"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-full pd-15">
+                            <div class="person">
+                                <div class="image">
+                                    <img
+                                        src="https://smthemebazar.com/html/bigtech/assets/img/team/team_img07.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="name">
+                                    <h2>Cameron Williamson</h2>
+                                </div>
+                                <div class="job">
+                                    <p>Founder & CO</p>
+                                </div>
+                                <ul class="contact-ui">
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-youtube"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-twitter"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-facebook-f"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-instagram"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-full pd-15">
+                            <div class="person">
+                                <div class="image">
+                                    <img
+                                        src="https://smthemebazar.com/html/bigtech/assets/img/team/team_img08.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="name">
+                                    <h2>Cameron Williamson</h2>
+                                </div>
+                                <div class="job">
+                                    <p>Founder & CO</p>
+                                </div>
+                                <ul class="contact-ui">
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-youtube"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-twitter"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-facebook-f"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="fab fa-instagram"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-area session" id="contact">
+                <div class="container">
+                    <div class="text-area-top">
+                        <div class="text-circle">
+                            <p><span></span>CONTACT<span></span></p>
+                        </div>
+                        <div class="sub-text-area">
+                            <p>
+                                <span>Contact</span>
+                                ICO Crypto
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-step d-flex mr-wapper-15 justify-center">
+                        <div class="step-wrap col-lg-4 col-sm-6 pd-15">
+                            <div class="step">
+                                <div class="icon-wrapper">
+                                    <div class="icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>company@gmail.com infoweb@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-wrap col-lg-4 col-sm-6 pd-15">
+                            <div class="step">
+                                <div class="icon-wrapper">
+                                    <div class="icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>company@gmail.com infoweb@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-wrap col-lg-4 col-sm-6 pd-15">
+                            <div class="step">
+                                <div class="icon-wrapper">
+                                    <div class="icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>company@gmail.com infoweb@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <form action="">
+                            <div class="row-top d-flex mr-wapper-15">
+                                <div class="col-md-6 col-full pd-15">
+                                    <div class="input form-mr">
+                                        <input
+                                            type="text"
+                                            class="input-style"
+                                            placeholder="Enter your name"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-full pd-15">
+                                    <div class="input form-mr">
+                                        <input
+                                            type="text"
+                                            class="input-style"
+                                            placeholder="Enter your email"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-message form-mr">
+                                <textarea
+                                    name="message"
+                                    class="input-style"
+                                    placeholder="Enter your massage "
+                                ></textarea>
+                            </div>
+                            <div class="btn-send">
+                                <div class="text-box" >
+                                    <a href="#" class="btn border btn-white btn-        animate">SEND MESSAGE</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container">
+                    <div class="line-top">
+                        <div class="btn">
+                            <i class="fas fa-arrow-up"></i>
+                        </div>
+                    </div>
+                    <div class="footer-top d-flex mr-wapper-15">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-full pd-15">
+                            <div
+                            data-aos="fade-up"
+                            data-aos-offset="200"
+                            data-aos-delay="50"
+                            data-aos-duration="600"
+                            data-aos-easing="ease-in-out"
+                            data-aos-anchor-placement="top-bottom"
+                          >
+
+                          <div class="content-inner-left">
+                              <img
+                                  src="https://smthemebazar.com/html/bigtech/assets/img/logo/logo.png"
+                                  alt=""
+                              />
+                              <p class="text">
+                                  A new way to make the payments easy,
+                                  reliable and 100% secure. claritatem
+                                  itamconse quat. Exerci tationulla
+                              </p>
+                              <ul class="contact-ui footer-ct">
+                                  <li>
+                                      <a href=""
+                                          ><i class="fab fa-youtube"></i
+                                      ></a>
+                                  </li>
+                                  <li>
+                                      <a href=""
+                                          ><i class="fab fa-twitter"></i
+                                      ></a>
+                                  </li>
+                                  <li>
+                                      <a href=""
+                                          ><i class="fab fa-facebook-f"></i
+                                      ></a>
+                                  </li>
+                                  <li>
+                                      <a href=""
+                                          ><i class="fab fa-skype"></i
+                                      ></a>
+                                  </li>
+                              </ul>
+                          </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-5 col-sm-6 col-full pd-15">
+                            <div
+                            data-aos="fade-up"
+                            data-aos-offset="200"
+                            data-aos-delay="200"
+                            data-aos-duration="600"
+                            data-aos-easing="ease-in-out"
+                            data-aos-anchor-placement="top-bottom"
+                          >
+                            <div class="content-inner-center">
+                                <div class="title-head">
+                                    <h2>USEFUL LINKS</h2>
+                                </div>
+                                <ul class="list">
+                                    <li><a href="">Contact us</a></li>
+                                    <li><a href="">How it Works</a></li>
+                                    <li><a href="">Create/a></li>
+                                    <li><a href="">Explore</a></li>
+                                    <li><a href="">Terms & Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-sm-6 col-full pd-15">
+                            <div
+                            data-aos="fade-up"
+                            data-aos-offset="200"
+                            data-aos-delay="350"
+                            data-aos-duration="600"
+                            data-aos-easing="ease-in-out"
+                            data-aos-anchor-placement="top-bottom"
+                          >
+                            <div class="content-inner-center">
+                                <div class="title-head">
+                                    <h2>COMMUNITY</h2>
+                                </div>
+                                <ul class="list">
+                                    <li><a href="">Help Center</a></li>
+                                    <li><a href="">Partners</a></li>
+                                    <li><a href="">Suggestions</a></li>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Newsletters</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-full pd-15">
+                            <div
+                            data-aos="fade-up"
+                            data-aos-offset="200"
+                            data-aos-delay="500"
+                            data-aos-duration="600"
+                            data-aos-easing="ease-in-out"
+                            data-aos-anchor-placement="top-bottom"
+                          >
+                          <div class="content-inner-right">
+                              <div class="title-head">
+                                  <h2>COMMUNITY</h2>
+                              </div>
+                              <p class="text">
+                                  A new way to make the payments easy,
+                                  reliable and 100% secure. claritatem
+                                  itamconse quat. Exerci tationulla
+                              </p>
+                              <form action="">
+                                  <div class="form-inner">
+                                      <input type="text" placeholder="Info@gmail.com">
+                                      <div class="btn">
+                                          <i class="fas fa-paper-plane"></i>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom d-flex justify-between">
+                        <div class="content-left">
+                            <p>Copyright © 2022. All Rights Reserved Bigtech</p>
+                        </div>
+                        <div class="content-right">
+                            <a href="">Terms and conditions</a>
+                            <a href="">Privacy policy</a>
+                            <a href="">Login / Signup</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="overlay"></div>
+            <div class="nav-mobile">
+                <div class="nav-mobile-inner">
+                    <div class="logo-top">
+                        <img src="https://smthemebazar.com/html/bigtech/assets/img/logo/logo.png" alt="">
+                        <div class="btn-close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <ul class="nav">
+                        <li class="btn-show-subnav">
+                            <a href="#home">home
+                                <div class="btn-show-more">
+                                    <i class="fas fa-angle-down"></i>
+                                </div>
+                            </a>
+                            
+                            <ul class="sub-navhehe">
+                                <li><a href="">Home one</a></li>
+                                <li><a href="">Home two</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#about">about us</a>
+                        </li>
+                        <li>
+                            <a href="#sales">sales</a>
+                        </li>
+                        <li>
+                            <a href="#roadmap">roadmap</a>
+                        </li>
+                        <li class="btn-show-subnav">
+                            <a href="">blog
+                                <div class="btn-show-more">
+                                    <i class="fas fa-angle-down"></i>
+                                </div>
+                            </a>
+                            <ul class="sub-navhehe">
+                                <li><a href="">Home one</a></li>
+                                <li><a href="">Home two</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#contact">contact us</a>
+                        </li>
+                    </ul>
+                    <div class="contact-bt-wrapper">
+                        <ul class="contact-ui nav-mobile-ct">
+                            <li>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
+           
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init()
@@ -849,7 +1520,22 @@
                 autoplay: {
                     delay: 2500,
                 },
+                breakpoints : {
+                    0 :{
+                        slidesPerView: 1,
+                    },
+                    767 : {
+                        slidesPerView: 2,
+                    },
+                    992: {
+                        slidesPerView: 3,
+                    },
+                    1200: {
+                        slidesPerView: 4,
+                    }
+                }
             })
         </script>
+       <script src="./handle.js"></script>
     </body>
 </html>
